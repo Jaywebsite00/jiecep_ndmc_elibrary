@@ -70,6 +70,7 @@ Create a Google Form for book suggestions, then replace `https://forms.google.co
    `https://YOUR-USERNAME.github.io/jiecep-ndmc-elibrary/`
 
 Your repository may be public when using the free GitHub Pages setup. Do not put private documents, passwords, API keys, or sensitive information in the repository.
+GitHub Pages deployment test
 
 ## Important copyright note
 
