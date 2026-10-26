@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JIECEP NDMC Chapter E-Library</title>
+  <meta name="description" content="JIECEP NDMC Chapter E-Library for engineering students.">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <header class="site-header">
+    <a class="brand" href="./">
+      <!-- Replace this image with your official chapter logo -->
+      <img
+        src="images/jiecep-logo.jpg"
+        alt="JIECEP NDMC Chapter Logo"
+        class="brand-logo"
+        onerror="this.hidden=true; this.nextElementSibling.hidden=false;"
+      >
+      <span class="brand-fallback" hidden>J</span>
+
+      <span class="brand-text">
+        <strong>JIECEP NDMC</strong>
+        <small>CHAPTER E-LIBRARY</small>
+      </span>
+    </a>
+
+    <span class="header-label">STUDENT RESOURCE CENTER</span>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-inner">
+        <p class="eyebrow">LEARN • EXPLORE • ENGINEER</p>
+        <h1>Your Engineering <span>Library.</span></h1>
+        <p class="hero-description">
+          Find books and learning resources for your electronics engineering journey.
+        </p>
+
+        <form id="searchForm" class="search-form">
+          <span class="search-icon" aria-hidden="true">⌕</span>
+          <input
+            type="search"
+            id="searchInput"
+            placeholder="Search books, authors, or subjects..."
+            aria-label="Search books"
+          >
+          <button type="submit">Search</button>
+        </form>
+
+        <p class="search-note">Search the collection or browse by year level.</p>
+      </div>
+    </section>
+
+    <section class="library-section">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">THE COLLECTION</p>
+          <h2>Explore the Library</h2>
+        </div>
+        <span class="collection-label">DIGITAL BOOKS</span>
+      </div>
+
+      <div class="library-layout">
+        <aside class="sidebar">
+          <h3>Year Level</h3>
+          <p class="sidebar-description">Filter resources by year.</p>
+
+          <nav id="categoryList" class="category-list" aria-label="Filter by year">
+            <button type="button" class="category-button active" data-year="All">
+              <span>All Books</span><span class="category-arrow">›</span>
+            </button>
+            <button type="button" class="category-button" data-year="1st Year">
+              <span>1st Year</span><span class="category-arrow">›</span>
+            </button>
+            <button type="button" class="category-button" data-year="2nd Year">
+              <span>2nd Year</span><span class="category-arrow">›</span>
+            </button>
+            <button type="button" class="category-button" data-year="3rd Year">
+              <span>3rd Year</span><span class="category-arrow">›</span>
+            </button>
+            <button type="button" class="category-button" data-year="4th Year">
+              <span>4th Year</span><span class="category-arrow">›</span>
+            </button>
+          </nav>
+
+          <div class="sidebar-note">
+            <span class="note-mark">i</span>
+            <p>Choose a book to read its PDF online or open the file in Google Drive.</p>
+          </div>
+        </aside>
+
+        <div class="library">
+          <div class="results-bar">
+            <p id="resultCount" aria-live="polite">Loading books...</p>
+            <span>BOOK CATALOG</span>
+          </div>
+
+          <div id="bookGrid" class="book-grid"></div>
+
+          <div id="emptyState" class="empty-state" hidden>
+            <div class="empty-icon">⌕</div>
+            <h3>No books found</h3>
+            <p>Try another title, author, subject, or year level.</p>
+            <button id="resetButton" class="reset-button" type="button">
+              Show all books
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <strong>JIECEP NDMC CHAPTER</strong>
+      <p>Electronics Engineering E-Library</p>
+    </div>
+    <p class="footer-right">For educational use • 2026</p>
+  </footer>
+
+</body>
+</html>
