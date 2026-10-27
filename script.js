@@ -259,7 +259,7 @@ const books = [
   {
     title: "Engineering Economy",
     author: "Sullivan",
-    year: "3rd Year",
+    year: "2nd Year",
     subject: "ECON",
     category: "Mathematics",
     cover: "covers/ec.jpg",
@@ -292,7 +292,7 @@ const books = [
   {
     title: "Engineering Economy",
     author: "Blank",
-    year: "3rd Year",
+    year: "2nd Year",
     subject: "ECON",
     category: "Mathematics",
     cover: "covers/nom.jpg",
@@ -303,7 +303,7 @@ const books = [
   {
     title: "Engineering Economy",
     author: "STA. Maria",
-    year: "3rd Year",
+    year: "2nd Year",
     subject: "ECON",
     category: "Mathematics",
     cover: "covers/nocs.jpg",
@@ -313,7 +313,7 @@ const books = [
   {
     title: "ECE Laws",
     author: "Handouts",
-    year: "4th Year",
+    year: "3rd Year",
     subject: "Laws",
     category: "GEAS",
     cover: "covers/law.jpg",
